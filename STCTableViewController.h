@@ -1,5 +1,5 @@
 //
-//  STCViewController.h
+//  STCTableViewController.h
 //  UITableViewChallenge
 //
 //  Created by Stefan Claussen on 11/04/2014.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface STCViewController : UIViewController
+@interface STCTableViewController : UITableViewController
 
 @end

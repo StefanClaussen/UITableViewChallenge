@@ -14,13 +14,13 @@
 		F8B1E91118F7E91C00C90EB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B1E91018F7E91C00C90EB9 /* main.m */; };
 		F8B1E91518F7E91C00C90EB9 /* STCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B1E91418F7E91C00C90EB9 /* STCAppDelegate.m */; };
 		F8B1E91818F7E91C00C90EB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B1E91618F7E91C00C90EB9 /* Main.storyboard */; };
-		F8B1E91B18F7E91C00C90EB9 /* STCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B1E91A18F7E91C00C90EB9 /* STCViewController.m */; };
 		F8B1E91D18F7E91C00C90EB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B1E91C18F7E91C00C90EB9 /* Images.xcassets */; };
 		F8B1E92418F7E91C00C90EB9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B1E92318F7E91C00C90EB9 /* XCTest.framework */; };
 		F8B1E92518F7E91C00C90EB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B1E90418F7E91C00C90EB9 /* Foundation.framework */; };
 		F8B1E92618F7E91C00C90EB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B1E90818F7E91C00C90EB9 /* UIKit.framework */; };
 		F8B1E92E18F7E91C00C90EB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8B1E92C18F7E91C00C90EB9 /* InfoPlist.strings */; };
 		F8B1E93018F7E91C00C90EB9 /* UITableViewChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B1E92F18F7E91C00C90EB9 /* UITableViewChallengeTests.m */; };
+		F8B1E93B18F7EA8000C90EB9 /* STCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B1E93A18F7EA8000C90EB9 /* STCTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		F8B1E91318F7E91C00C90EB9 /* STCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STCAppDelegate.h; sourceTree = "<group>"; };
 		F8B1E91418F7E91C00C90EB9 /* STCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STCAppDelegate.m; sourceTree = "<group>"; };
 		F8B1E91718F7E91C00C90EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F8B1E91918F7E91C00C90EB9 /* STCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STCViewController.h; sourceTree = "<group>"; };
-		F8B1E91A18F7E91C00C90EB9 /* STCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STCViewController.m; sourceTree = "<group>"; };
 		F8B1E91C18F7E91C00C90EB9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F8B1E92218F7E91C00C90EB9 /* UITableViewChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B1E92318F7E91C00C90EB9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F8B1E92B18F7E91C00C90EB9 /* UITableViewChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		F8B1E92D18F7E91C00C90EB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F8B1E92F18F7E91C00C90EB9 /* UITableViewChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewChallengeTests.m; sourceTree = "<group>"; };
+		F8B1E93918F7EA8000C90EB9 /* STCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STCTableViewController.h; path = ../STCTableViewController.h; sourceTree = "<group>"; };
+		F8B1E93A18F7EA8000C90EB9 /* STCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STCTableViewController.m; path = ../STCTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				F8B1E91318F7E91C00C90EB9 /* STCAppDelegate.h */,
 				F8B1E91418F7E91C00C90EB9 /* STCAppDelegate.m */,
 				F8B1E91618F7E91C00C90EB9 /* Main.storyboard */,
-				F8B1E91918F7E91C00C90EB9 /* STCViewController.h */,
-				F8B1E91A18F7E91C00C90EB9 /* STCViewController.m */,
+				F8B1E93918F7EA8000C90EB9 /* STCTableViewController.h */,
+				F8B1E93A18F7EA8000C90EB9 /* STCTableViewController.m */,
 				F8B1E91C18F7E91C00C90EB9 /* Images.xcassets */,
 				F8B1E90B18F7E91C00C90EB9 /* Supporting Files */,
 			);
@@ -251,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8B1E91118F7E91C00C90EB9 /* main.m in Sources */,
-				F8B1E91B18F7E91C00C90EB9 /* STCViewController.m in Sources */,
+				F8B1E93B18F7EA8000C90EB9 /* STCTableViewController.m in Sources */,
 				F8B1E91518F7E91C00C90EB9 /* STCAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
